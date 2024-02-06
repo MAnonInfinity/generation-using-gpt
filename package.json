@@ -1,0 +1,24 @@
+{
+  "name": "gpt-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "npx nodemon --inspect index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^4.0.2",
+    "esm": "^3.2.25",
+    "node-fetch": "^2.6.0",
+    "node-tesseract-ocr": "^2.2.1",
+    "openai": "^4.11.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2html": "^3.1.0",
+    "pdf2pic": "^3.0.3",
+    "pdfjs-dist": "^2.12.313"
+  }
+}
